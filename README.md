@@ -14,7 +14,7 @@ RandomUserService is an application that fetches random users from an external A
 
 - .NET 8 SDK
 - Visual Studio 2022 or later
-- SQL Server (optional, for full database configuration)
+- SQL Server
 
 ## Setup
 
