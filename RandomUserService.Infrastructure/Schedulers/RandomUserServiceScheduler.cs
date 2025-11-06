@@ -10,12 +10,12 @@ namespace RandomUserService.Infrastructure.Schedulers
 {
     public class RandomUserServiceScheduler : BackgroundService, IRandomUserServiceScheduler
     {
-        private readonly ILogger _logger;
+        private readonly ILogger<RandomUserServiceScheduler> _logger;
         private readonly IServiceScopeFactory _scopeFactory;
 
         private bool _paused;
 
-        public RandomUserServiceScheduler(ILogger logger, IServiceScopeFactory scopeFactory)
+        public RandomUserServiceScheduler(ILogger<RandomUserServiceScheduler> logger, IServiceScopeFactory scopeFactory)
         {
             _logger = logger;
             _scopeFactory = scopeFactory;
