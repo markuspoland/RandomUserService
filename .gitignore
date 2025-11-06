@@ -1,0 +1,138 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+out/
+artifacts/
+publish/
+TestResults/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+*.vspscc
+.vs/
+.idea/
+*.code-workspace
+
+# Visual Studio cache
+.vscode/
+*.vsconfig
+*.cache
+*.dbmdl
+*.jfm
+*.tlog
+
+# Visual Studio Code settings
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Rider & JetBrains
+.idea/
+*.sln.iml
+
+# ASP.NET Core environment
+appsettings.Development.json
+appsettings.Local.json
+appsettings.Test.json
+appsettings.Production.json
+appsettings.Staging.json
+
+# Entity Framework Migrations snapshot backups
+*Migrations/*.Designer.cs
+*Migrations/*.resx
+*_MigrationBackup/
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+*.nuspec
+project.lock.json
+project.fragment.lock.json
+
+# Build tools
+*.msbuild.binlog
+*.vsix
+*.ncrunchsolution
+_ReSharper.Caches/
+*.DotSettings.user
+
+# Coverage and test output
+coverage/
+*.coverage
+*.coveragexml
+*.trx
+*.xml
+*.json
+*.html
+TestResults/
+BenchmarkDotNet.Artifacts/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.log
+*.orig
+*.swp
+*.swo
+~$*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+*.db
+
+# Security
+secrets.json
+*.pfx
+*.cer
+*.key
+*.pem
+*.crt
+
+# Docker
+docker-compose.override.yml
+docker-compose.debug.yml
+*.dockerfile
+.docker/
+
+# Azure
+.publishsettings
+*.azurePubxml
+*.pubxml.user
+*.Publish.xml
+
+# Local environment files
+.env
+.env.*
+.envrc
+
+# Blazor / WASM build artifacts
+wwwroot/dist/
+wwwroot/css/
+wwwroot/js/
+wwwroot/_framework/
+Client/bin/
+Client/obj/
+Client/wwwroot/assets/
+
+# Other
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+pnpm-lock.yaml
+
+# Test databases (InMemory, SQLite etc.)
+*.db
